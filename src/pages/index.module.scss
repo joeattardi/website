@@ -71,44 +71,6 @@
   }
 }
 
-.book {
-  background: #1693a5;
-  display: flex;
-  align-items: flex-start;
-  color: #ffffff;
-
-  .content {
-    margin: 1rem;
-
-    h1 {
-      color: #ffffff;
-    }
-
-    a {
-      background: #2016a5;
-      color: #ffffff;
-      padding: 0.5rem 1rem;
-      border-radius: 5px;
-      font-size: 1.2rem;
-      font-weight: bold;
-      margin: 1rem;
-      transition: all 250ms;
-      display: inline-block;
-
-      &:hover {
-        text-decoration: none;
-        background: lighten(#2016a5, 10%);
-        transform: scale(1.1);
-      }
-    }
-  }
-
-  img {
-    width: 300px;
-    margin: 1rem;
-  }
-}
-
 @keyframes showScroll {
   0% {
     opacity: 0;
