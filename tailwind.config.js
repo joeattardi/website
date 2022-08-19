@@ -12,6 +12,10 @@ module.exports = {
       },
       colors: {
         header: '#e2e8f0'
+      },
+      gradientColorStops: {
+        'transparent-black-60': 'rgba(0, 0, 0, 0.6)',
+        'transparent-black-70': 'rgba(0, 0, 0, 0.7)'
       }
     }
   },

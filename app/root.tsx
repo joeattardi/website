@@ -32,9 +32,13 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body className="h-screen min-h-screen flex flex-col">
         <SiteHeader />
-        <Outlet />
+
+        <main className="grow">
+          <Outlet />
+        </main>
+
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
