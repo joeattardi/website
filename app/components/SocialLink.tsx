@@ -13,11 +13,11 @@ export default function SocialLink({ icon, href, title }: SocialLinkProps) {
       target="_blank"
       rel="noreferrer"
       href={href}
-      className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-800 p-3 text-slate-200 shadow-lg transition-all ease-in-out hover:bg-slate-200 hover:text-slate-800"
+      className="hover:bg-slate-800 flex h-12 w-12 items-center justify-center rounded-full p-3 text-slate-200 transition-all ease-in-out"
     >
       <FontAwesomeIcon
         fixedWidth
-        className="text-2xl"
+        className="text-3xl"
         icon={icon}
         title={title}
       />
