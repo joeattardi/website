@@ -10,8 +10,8 @@ export default function Index() {
         <div className="flex items-center gap-x-4">
           <img src="/images/logo-inverse.png" alt="" className="w-24 hidden md:block h-24 opacity-25" />
           <div className="flex flex-col items-center">
-            <h2 className="text-6xl text-white font-bold">Joe Attardi</h2>
-            <div className="text-white text-xl">Software Engineer and Author</div>
+            <h2 className="text-2xl md:text-6xl text-white font-bold">Joe Attardi</h2>
+            <div className="text-white md:text-xl">Software Engineer and Author</div>
           </div>
         </div>
       </div>
